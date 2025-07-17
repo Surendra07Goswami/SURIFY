@@ -1,6 +1,6 @@
 
 let songIndex = 0;
-let audioElement = new Audio('songs/2.mp3');
+let audioElement = new Audio('songs/1.mp3');
 let masterPlay = document.getElementById("masterPlay");
 let myProgressBar = document.getElementById("myProgressBar");
 let gif = document.getElementById("gif");
@@ -9,16 +9,16 @@ let songItems = Array.from(document.getElementsByClassName("songItem"));
 
 
 let songs= [
-    {songName:"SUNFLOWER", filePath: "songs/1.mp3" , coverPath:"covers/1.jpg"},
-    {songName:"SORRY", filePath: "songs/2.mp3" , coverPath:"covers/2.jpg"},
-    {songName:"BLINDING LIGHTS", filePath: "songs/3.mp3" , coverPath:"covers/3.jpg"},
-    {songName:"OLIVIA", filePath: "songs/4.mp3" , coverPath:"covers/4.jpg"},
-    {songName:"UNTIL I FOUND YOU", filePath: "songs/5.mp3" , coverPath:"covers/5.jpg"},
-    {songName:"OWA-OWA", filePath: "songs/6.mp3" , coverPath:"covers/6.jpg"},
-    {songName:"SLOW DANCE", filePath: "songs/7.mp3" , coverPath:"covers/7.jpg"},
-    {songName:"MIA", filePath: "songs/8.mp3" , coverPath:"covers/8.jpg"},
-    {songName:"PILLOW TALK", filePath: "songs/9.mp3" , coverPath:"covers/9.jpg"},
-    {songName:"GOODBYES", filePath: "songs/10.mp3" , coverPath:"covers/10.jpg"},
+    {songName:"SUNFLOWER", filePath: "songs/1.mp3" , coverPath:"1.jpg"},
+    {songName:"SORRY", filePath: "songs/2.mp3" , coverPath:"2.jpg"},
+    {songName:"BLINDING LIGHTS", filePath: "songs/3.mp3" , coverPath:"3.jpg"},
+    {songName:"OLIVIA", filePath: "songs/4.mp3" , coverPath:"4.jpg"},
+    {songName:"UNTIL I FOUND YOU", filePath: "songs/5.mp3" , coverPath:"5.jpg"},
+    {songName:"OWA-OWA", filePath: "songs/6.mp3" , coverPath:"6.jpg"},
+    {songName:"SLOW DANCE", filePath: "songs/7.mp3" , coverPath:"7.jpg"},
+    {songName:"MIA", filePath: "songs/8.mp3" , coverPath:"8.jpg"},
+    {songName:"PILLOW TALK", filePath: "songs/9.mp3" , coverPath:"9.jpg"},
+    {songName:"GOODBYES", filePath: "songs/10.mp3" , coverPath:"10.jpg"},
 ]
 
 songItems.forEach((element , i)=>{
